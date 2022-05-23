@@ -9,8 +9,8 @@ defmodule BerWeb.PageViewTest do
     page =
       render_to_string(PageView, "index.html",
         links: [
-          %{name: "GitHub", url: "https://github.com/bamorim"},
-          %{name: "MySite", url: "https://mysite.com"}
+          %{name: "GitHub", url: "https://github.com/bamorim", icon: "external-link"},
+          %{name: "MySite", url: "https://mysite.com", icon: "external-link"}
         ]
       )
 

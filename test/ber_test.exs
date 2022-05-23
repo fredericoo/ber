@@ -5,7 +5,7 @@ defmodule BerTest do
     assert [_ | _] = links = Ber.get_links()
 
     for link <- links do
-      assert %{name: "" <> _, url: "" <> _} = link
+      assert %{name: "" <> _, url: "" <> _, icon: "" <> _} = link
     end
   end
 end
