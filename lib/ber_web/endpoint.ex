@@ -20,7 +20,7 @@ defmodule BerWeb.Endpoint do
     at: "/",
     from: :ber,
     gzip: false,
-    only: ~w(assets fonts images favicon.ico robots.txt)
+    only: ~w(assets fonts images favicon.ico robots.txt site.webmanifest)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
