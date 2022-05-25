@@ -34,6 +34,11 @@ defmodule Ber do
         icon: "twitch"
       },
       %{
+        name: "Telegram",
+        url: "https://t.me/BernardoDCGA",
+        icon: "telegram"
+      },
+      %{
         name: "Blog",
         url: "https://listed.to/@bamorim"
       }
